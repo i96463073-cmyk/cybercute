@@ -1,0 +1,74 @@
+:root {
+  font-family: Inter, system-ui, Arial, sans-serif;
+  color: #ffffff;
+  background: #080b14;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: #080b14;
+}
+
+button {
+  border: none;
+  border-radius: 10px;
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.app {
+  min-height: 100vh;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 42px;
+  margin-bottom: 5px;
+}
+
+header p {
+  color: #9ca3af;
+}
+
+main {
+  max-width: 900px;
+  margin: 50px auto;
+}
+
+.card {
+  padding: 40px 25px;
+  border-radius: 20px;
+  background: #111827;
+  border: 1px solid #263044;
+}
+
+.card h2 {
+  font-size: 30px;
+}
+
+.card p {
+  color: #aeb7c7;
+  margin-bottom: 25px;
+}
+
+.card button {
+  background: #7c3aed;
+  color: white;
+}
+
+.status {
+  margin-top: 30px;
+  color: #9ca3af;
+}
